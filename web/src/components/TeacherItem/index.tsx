@@ -27,7 +27,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
   }
 
   return (
-    <article className="teacher-item">
+    <article className="teacher-item animate-topToBottom">
       <header>
         <img src={teacher.avatar} alt={teacher.name} />
         <div>

@@ -15,13 +15,14 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
   return (
     <header className="page-header">
       <div className="top-bar-container"> 
-        <Link to="/">
+        <Link className="animate-rigth" to="/">
           <img src={backIcon} alt="Voltar" />
         </Link>
-        <img src={logoImg} alt="Proffy" />
+        
+        <img className="animate-left" src={logoImg} alt="Proffy" />
       </div>
 
-      <div className="header-content">
+      <div className="header-content animate-appear">
         <strong>{props.title}</strong>
         { props.description && <p>{props.description}</p> }
 

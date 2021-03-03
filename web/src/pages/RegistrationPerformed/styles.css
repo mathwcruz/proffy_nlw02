@@ -1,0 +1,81 @@
+.registration-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #FFF;
+  background: var(--color-primary-lighter);
+}
+
+.registration-content {
+  padding: 2rem;
+  display: grid;
+}
+
+.registration-content .performedIcon {
+  margin-bottom: 2rem;
+  justify-self: center;
+  height: 8rem;
+  width: 8rem;
+}
+
+.registration-content h2 {
+  line-height: 4.5rem;
+  font-size: 4.2rem;
+  font-family: Archivo;
+  font-weight: 700;
+  text-align: center;
+}
+
+.registration-content p {
+  margin: 2rem 0;
+  line-height: 2.6rem;
+  font-size: 1.6rem;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.registration-content .buttonPerformed {
+  width: 100%;
+  height: 5.6rem;
+  background: var(--color-secundary);
+  color: var(--color-button-text);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font: 700 1.6rem Archivo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  margin-top: 3.2rem;
+}
+
+.registration-content .buttonPerformed:hover {
+  background: var(--color-secundary-dark);
+}
+
+@media (min-width: 1100px) {
+  .registration-content .performedIcon {
+    height: 10rem;
+    width: 10rem;
+  }
+  .registration-content h2 {
+    line-height: 4.8rem;
+    font-size: 5.2rem;
+  }
+  
+  .registration-content p {
+    font-size: 1.6rem;
+  }
+  
+  .registration-content .buttonPerformed {
+    width: 75%;
+    height: 5.2rem;
+    justify-self: center;
+  }
+}

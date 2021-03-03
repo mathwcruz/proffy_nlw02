@@ -58,9 +58,8 @@ function TeacherForm() {
       cost: Number(cost),
       schedule: scheduleItems
     }).then(() => {
-      alert('Cadastro realizado com sucesso!');
 
-      history.push('/');
+      history.push('/registration-performed');
     }).catch(() => {
       alert('Erro no cadastro!');
     })
@@ -73,14 +72,15 @@ function TeacherForm() {
         description="O primeiro passo é preencher esse formulário de inscrição"
       />
 
-      <main>
+      <main className="animate-topToBottom">
         <form onSubmit={handleCreateClass}>
           <fieldset>
             <legend>Seus dados</legend>
 
             <Input 
               name="name" 
-              label="Nome completo" 
+              label="Nome completo"
+              placeholder="Ex: Pedro Joaquim Oliveira" 
               value={name}
               onChange={(e) => { setName(e.target.value) }}
             />
@@ -88,6 +88,7 @@ function TeacherForm() {
             <Input 
               name="avatar" 
               label="Avatar"
+              placeholder="https://minha-foto-na-web.com"
               value={avatar}
               onChange={(e) => { setAvatar(e.target.value) }}
             />
@@ -95,6 +96,7 @@ function TeacherForm() {
             <Input 
               name="whatsapp" 
               label="WhatsApp"
+              placeholder="11977777777"
               value={whatsapp}
               onChange={(e) => { setWhatsapp(e.target.value) }}
             />
@@ -102,6 +104,7 @@ function TeacherForm() {
             <Textarea 
               name="bio" 
               label="Biografia"
+              placeholder="Descreva um pouco sobre o seu conhecimento na área"
               value={bio}
               onChange={(e) => { setBio(e.target.value) }}
             />
@@ -119,19 +122,25 @@ function TeacherForm() {
                 { value: 'Artes', label: 'Artes' },
                 { value: 'Biologia', label: 'Biologia' },
                 { value: 'Ciências', label: 'Ciências' },
-                { value: 'Educação física', label: 'Educação física' },
-                { value: 'Física', label: 'Física' },
+                { value: 'Educação Física', label: 'Educação Física' },
                 { value: 'Geografia', label: 'Geografia' },
-                { value: 'História', label: 'História' },
                 { value: 'Matemática', label: 'Matemática' },
+                { value: 'Física', label: 'Física' },
+                { value: 'História', label: 'História' },
                 { value: 'Português', label: 'Português' },
                 { value: 'Química', label: 'Química' },
+                { value: 'Filosofia', label: 'Filosofia' },
+                { value: 'Sociologia', label: 'Sociologia' },
+                { value: 'Literatura', label: 'Literatura' },
+                { value: 'Inglês', label: 'Inglês' },
+                { value: 'Redação', label: 'Redação' },
               ]}
             />
             
             <Input 
               name="cost" 
               label="Custo da sua hora por aula"
+              placeholder="Ex: 120"
               value={cost}
               onChange={(e) => { setCost(e.target.value) }}
             />

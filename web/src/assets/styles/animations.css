@@ -1,0 +1,96 @@
+/* efeito que faz vir da direita em direção à esquerda */
+@keyframes left {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-left {
+  animation-name: left;
+  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-fill-mode: backwards;
+}
+
+/* efeito que faz surgir da esquerda em direção a direita */
+@keyframes right {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-rigth {
+  animation-name: right;
+  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-fill-mode: backwards;
+}
+
+/* efeito para surgir */
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.65;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-appear {
+  animation-name: appear;
+  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-fill-mode: backwards;
+}
+
+/* efeito para vir de baixo para cima */
+@keyframes bottomToTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-bottomToTop {
+  animation-name: bottomToTop;
+  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-fill-mode: backwards;
+}
+
+/* efeito para vir de cima para baixo*/
+@keyframes topToBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-topToBottom {
+  animation-name: topToBottom;
+  animation-duration: 700ms;
+  animation-delay: 300ms;
+  animation-fill-mode: backwards;
+}

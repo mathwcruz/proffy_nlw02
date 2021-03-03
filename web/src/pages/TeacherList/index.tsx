@@ -1,4 +1,5 @@
 import React, { useState, FormEvent } from 'react';
+import { FiSearch } from 'react-icons/fi';
 
 import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/TeacherItem';
@@ -33,7 +34,7 @@ function TeacherList() {
   return (
     <div id="page-teacher-list" className="container">
       <PageHeader title="Estes são os proffys disponíveis.">
-        <form id="search-teachers" onSubmit={searchTeachers}>
+        <form className="animate-bottomToTop" id="search-teachers" onSubmit={searchTeachers}>
           <Select 
             name="subject" 
             label="Matéria"
@@ -43,13 +44,18 @@ function TeacherList() {
               { value: 'Artes', label: 'Artes' },
               { value: 'Biologia', label: 'Biologia' },
               { value: 'Ciências', label: 'Ciências' },
-              { value: 'Educação física', label: 'Educação física' },
-              { value: 'Física', label: 'Física' },
+              { value: 'Educação Física', label: 'Educação Física' },
               { value: 'Geografia', label: 'Geografia' },
-              { value: 'História', label: 'História' },
               { value: 'Matemática', label: 'Matemática' },
+              { value: 'Física', label: 'Física' },
+              { value: 'História', label: 'História' },
               { value: 'Português', label: 'Português' },
               { value: 'Química', label: 'Química' },
+              { value: 'Filosofia', label: 'Filosofia' },
+              { value: 'Sociologia', label: 'Sociologia' },
+              { value: 'Literatura', label: 'Literatura' },
+              { value: 'Inglês', label: 'Inglês' },
+              { value: 'Redação', label: 'Redação' },
             ]}
           />
           <Select 
@@ -76,7 +82,7 @@ function TeacherList() {
           />
           
           <button type="submit">
-            Buscar
+            <FiSearch color="#FFF" size={28} />
           </button>
         </form>
       </PageHeader>
