@@ -1,50 +1,68 @@
 <h1 align="center">
-    <img alt="Proffy" title="Proffy" src=".github/logo.svg" />
+  <img src="./web/src/assets/images/logo.svg" alt="Logo do Proffy" width="250">
 </h1>
 
-<p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+<br>
+
+## **<h2 align="center">Aplicação Full Stack📟 👨‍💻</h2>**
+
+## <p><h2 align="center">Aplicação que une professores a alunos em uma plataforma online desenvolvida na NLW02 pela [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+
+<h3>Além da aplicação desenvolvida, adicionei mais matérias para aulas, algumas animações ao layout, tema dark e página de cadastro realizado após submeter o formulário</h3>
+
+# **Web Layout** 💻
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=8257E5&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
+  <img src="./.github/demonstration-web.gif" width="1400px"/>
 </p>
 
 <br>
 
+# **Mobile Layout** 💻
+
 <p align="center">
-  <img alt="Proffy" src=".github/proffy.png" width="100%">
+  <img src="./.github/demonstration-mobile.gif" width="350px"/>
 </p>
 
-## 🚀 Tecnologias
+<br>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Tecnologias utilizadas:
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+<p align="center">
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="html5"  width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="css3" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg" alt="node" width="70" height="70"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/1200px-Sqlite-square-icon.svg.png" alt="sqlite" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="70" height="70"/>
+</p>
 
-## 💻 Projeto
+<br>
 
-O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online.
+## 💻 Instalação da aplicação
+- `git clone https://github.com/mathwcruz/Proffy_OS_NLW_02.git` para clonar o repositório
 
-## 🔖 Layout
+<br>
 
-Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+# Frontend
+Para rodar a aplicação na web, siga as instruções:
+- Entre na pasta `web` 
+- `npm i` ou `yarn install` para instalar as dependências do projeto
+- Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar a aplicação
+- Link para a [aplicação web](https://proffy-matheus-cruz.netlify.app/) - Você precisa rodar o servidor para desfrutar o melhor possível da aplicação
 
-- [Layout Web](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
-- [Layout Mobile](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile)
+<br>
 
-## :memo: Licença
+# Backend
+Para rodar o servidor, siga as instruções:
+- Entre na pasta `server`
+- `npm i` ou `yarn install` para instalar as dependências do projeto
+- Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar o servidor
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
----
+## **<p align="center">Muito obrigado ao pessoal da Rocketseat 🚀 pelo excelente conteúdo e didática, é nítido o impacto dessa empresa nos meus estudos 🙂</p>**
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+## **<p align="center">Iniciando a caminhada para poder participar da maratona nesse mundo da programação 🏃‍</p>**
+
+### <p> <h2 align="center"> Mais uma aplicação realizada por Matheus da Cruz 👨‍💻 </h2> </p>
+
