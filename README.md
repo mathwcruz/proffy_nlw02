@@ -67,7 +67,7 @@ Para rodar o servidor, siga as instruções:
 
 <br>
 
-### Autor
+### Author
 ---
 
 <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend">
