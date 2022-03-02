@@ -1,14 +1,14 @@
 <h1 align="center">
-  <img src="./web/src/assets/images/logo.svg" alt="Logo do Proffy" width="250">
+  <img src="./web/src/assets/images/logo.svg" alt="Proffy logo" width="250">
 </h1>
 
 <br>
 
-## **<h2 align="center">Aplicação Full Stack📟 👨‍💻</h2>**
+## **<h2 align="center">Full Stack application 📟 👨‍💻</h2>**
 
-## <p><h2 align="center">Aplicação que une professores a alunos em uma plataforma online desenvolvida na NLW02 pela [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Application that unites teachers and students on an online platform developed at NLW02 by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
-<h3>Além da aplicação desenvolvida, adicionei mais matérias para aulas, algumas animações ao layout, tema dark e página de cadastro realizado após submeter o formulário</h3>
+<h3>In addition to the application developed, I added more materials for classes, some animations to the layout, dark theme and registration page performed after submitting the form</h3>
 
 # **Web Layout** 💻
 
@@ -27,7 +27,7 @@
 <br>
 
 <h3 align="center"> 
-	 Status da aplicação: Desenvolvido ✔️
+	 Application status: Developed ✔️
 </h3>
 <br>
 
@@ -46,24 +46,24 @@
 <br>
 
 ## :information_source: Application installation
-- `git clone https://github.com/mathwcruz/Proffy_OS_NLW_02.git` para clonar o repositório
+- `git clone https://github.com/mathwcruz/Proffy_OS_NLW_02.git` to clone the repository
 
 <br>
 
 # Frontend
-Para rodar a aplicação na web, siga as instruções:
-- Entre na pasta `web` 
-- `npm i` ou `yarn install` para instalar as dependências do projeto
-- Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar a aplicação
-- Link para a [aplicação web](https://proffy-matheus-cruz.netlify.app/) - Você precisa rodar o servidor para desfrutar o melhor possível da aplicação
+To run the application on the web, follow the instructions:
+- Go to `web` folder
+- run `npm i` or `yarn install` to install project dependencies
+- After downloading the dependencies, run `npm start` or `yarn start` para start the application
+- Link to the [web application](https://proffy-matheus-cruz.netlify.app/) - You need to run the server to enjoy the application as much as possible.
 
 <br>
 
 # Backend
-Para rodar o servidor, siga as instruções:
+To run the server, follow the instructions:
 - Entre na pasta `server`
-- `npm i` ou `yarn install` para instalar as dependências do projeto
-- Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar o servidor
+- run `npm i` or `yarn install` to install project dependencies
+- After downloading the dependencies, run `npm start` or `yarn start` to start the server
 
 <br>
 
@@ -75,15 +75,10 @@ Para rodar o servidor, siga as instruções:
  <br />
  <sub><b>Matheus da Cruz</b></sub></a> <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend" title="Rocketseat">  🚀</a>
 
-Desenvolvido por Matheus da Cruz 😊
-
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-cruz-frontend/)](https://www.linkedin.com/in/matheus-cruz-frontend/) 
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
 <br>
 
-## **<p align="center">Muito obrigado ao pessoal da Rocketseat 🚀 pelo excelente conteúdo e didática, é nítido o impacto dessa empresa nos meus estudos 🙂</p>**
+## **<p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>**
 
-## **<p align="center">Iniciando a caminhada para poder participar da maratona nesse mundo da programação 🏃‍</p>**
-
-### <p> <h2 align="center"> Mais uma aplicação realizada por Matheus da Cruz 👨‍💻 </h2> </p>
-
+### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
