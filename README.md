@@ -31,6 +31,11 @@
 </h3>
 <br>
 
+## :star: Features
+- [x] Teacher registration
+- [x] Search for specific classes on specific dates
+- [x] Class schedule
+
 ## :rocket: Technologies used:
 
 <p align="center">
