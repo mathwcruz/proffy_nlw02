@@ -6,7 +6,7 @@
 
 ## **<h2 align="center">Full Stack application 📟 👨‍💻</h2>**
 
-## <p><h2 align="center">Application that unites teachers and students on an online platform developed at NLW02 by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Application that unites teachers and students on an online platform</h2> </p>
 
 <h3>In addition to the application developed, I added more materials for classes, some animations to the layout, dark theme and registration page performed after submitting the form</h3>
 
