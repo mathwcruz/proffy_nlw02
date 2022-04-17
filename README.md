@@ -4,11 +4,11 @@
 
 <br>
 
-## **<h2 align="center">Full Stack application 📟 👨‍💻</h2>**
+<h2 align="center">Full Stack application 📟 👨‍💻</h2>
 
-## <p><h2 align="center">Application that unites teachers and students on an online platform</h2> </p>
+<h3 align="center">Application that unites teachers and students on an online platform</h3>
 
-<h3>In addition to the application developed, I added more materials for classes, some animations to the layout, dark theme and registration page performed after submitting the form</h3>
+<h4>In addition to the application developed, I added more materials for classes, some animations to the layout, dark theme and registration page performed after submitting the form</h4>
 
 # **Web Layout** 💻
 
@@ -86,4 +86,4 @@ To run the server, follow the instructions:
 
 ## **<p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>**
 
-### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
+<h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2>
