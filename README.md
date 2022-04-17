@@ -8,7 +8,7 @@
 
 <h3 align="center">Application that unites teachers and students on an online platform</h3>
 
-<h4>In addition to the application developed, I added more materials for classes, some animations to the layout, dark theme and registration page performed after submitting the form</h4>
+<p align="center">In addition to the application developed, I added more materials for classes, some animations to the layout, dark theme and registration page performed after submitting the form</p>
 
 # **Web Layout** 💻
 
