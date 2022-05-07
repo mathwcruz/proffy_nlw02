@@ -2,8 +2,6 @@
   <img src="./web/src/assets/images/logo.svg" alt="Proffy logo" width="250">
 </h1>
 
-<br>
-
 <h2 align="center">Full Stack application 📟 👨‍💻</h2>
 
 <h3 align="center">Application that unites teachers and students on an online platform</h3>
@@ -16,20 +14,15 @@
   <img src="./.github/demonstration-web.gif" width="1400px"/>
 </p>
 
-<br>
-
 # **Mobile Layout** 💻
 
 <p align="center">
   <img src="./.github/demonstration-mobile.gif" width="350px"/>
 </p>
 
-<br>
-
 <h3 align="center"> 
 	 Application status: Developed ✔️
 </h3>
-<br>
 
 ## :star: Features
 - [x] Teacher registration
@@ -48,12 +41,8 @@
 <img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/react_native_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvcmVhY3RfbmF0aXZlX2ljb24uc3ZnIiwiaWF0IjoxNjQ2MjQ2NzE4LCJleHAiOjE5NjE2MDY3MTh9.-zFRSgRy34uYAfeIdjqvS_JjLLfVFQsA0jgZC-SXtTQ" alt="react-native" width="85" height="85"/>
 </p>
 
-<br>
-
 ## :information_source: Application installation
 - `git clone https://github.com/mathwcruz/Proffy_OS_NLW_02.git` to clone the repository
-
-<br>
 
 # Frontend
 To run the application on the web, follow the instructions:
@@ -62,19 +51,14 @@ To run the application on the web, follow the instructions:
 - After downloading the dependencies, run `npm start` or `yarn start` para start the application
 - Link to the [web application](https://proffy-matheus-cruz.netlify.app/) - You need to run the server to enjoy the application as much as possible.
 
-<br>
-
 # Backend
 To run the server, follow the instructions:
 - Entre na pasta `server`
 - run `npm i` or `yarn install` to install project dependencies
 - After downloading the dependencies, run `npm start` or `yarn start` to start the server
 
-<br>
-
 ### Author
 ---
-
 <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/68445791?v=4" width="100px;" alt=""/>
  <br />
@@ -85,5 +69,3 @@ To run the server, follow the instructions:
 <br>
 
 ## **<p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>**
-
-<h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2>
